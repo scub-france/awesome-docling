@@ -1,0 +1,151 @@
+name: Link Checker & Repo Health
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Weekly on Sunday at midnight UTC
+  workflow_dispatch:  # Allow manual trigger
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check links with Lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --verbose --no-progress --exclude-mail README.md
+          format: markdown
+          output: lychee-report.md
+          fail: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check GitHub repos health
+        id: repo-health
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const content = fs.readFileSync('README.md', 'utf8');
+
+            // Extract all GitHub repository URLs
+            const repoRegex = /github\.com\/([^\/\s\)]+)\/([^\/\s\)]+)/g;
+            const repos = new Set();
+            let match;
+
+            while ((match = repoRegex.exec(content)) !== null) {
+              const owner = match[1];
+              const repo = match[2].replace(/\.git$/, '');
+              if (owner && repo && !repos.has(`${owner}/${repo}`)) {
+                repos.add(`${owner}/${repo}`);
+              }
+            }
+
+            console.log(`Found ${repos.size} unique repositories to check`);
+
+            const issues = [];
+
+            for (const repoPath of repos) {
+              const [owner, repo] = repoPath.split('/');
+
+              try {
+                const { data } = await github.rest.repos.get({
+                  owner,
+                  repo
+                });
+
+                if (data.archived) {
+                  issues.push(`- 🗄️ **Archived**: [${owner}/${repo}](https://github.com/${owner}/${repo})`);
+                  console.log(`⚠️ ${owner}/${repo} is archived`);
+                }
+              } catch (error) {
+                if (error.status === 404) {
+                  issues.push(`- ❌ **Not Found**: [${owner}/${repo}](https://github.com/${owner}/${repo}) - Repository may be deleted or private`);
+                  console.log(`❌ ${owner}/${repo} not found (404)`);
+                } else {
+                  console.log(`⚠️ Error checking ${owner}/${repo}: ${error.message}`);
+                }
+              }
+
+              // Rate limiting: wait a bit between requests
+              await new Promise(resolve => setTimeout(resolve, 100));
+            }
+
+            // Save results
+            fs.writeFileSync('repo-health.md', issues.join('\n') || 'All repositories are healthy!');
+
+            return issues.length;
+
+      - name: Create issue if problems found
+        if: steps.repo-health.outputs.result > 0
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+
+            // Read lychee report
+            let lycheeReport = '';
+            try {
+              lycheeReport = fs.readFileSync('lychee-report.md', 'utf8');
+            } catch (e) {
+              lycheeReport = 'No broken links detected.';
+            }
+
+            // Read repo health report
+            const repoHealth = fs.readFileSync('repo-health.md', 'utf8');
+
+            // Check if there's an existing open issue
+            const existingIssues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'maintenance,automated'
+            });
+
+            const existingIssue = existingIssues.data.find(issue =>
+              issue.title.includes('Maintenance Report')
+            );
+
+            const body = `## 🔍 Weekly Maintenance Report
+
+            This automated check found some issues that need attention.
+
+            ### 📦 Repository Health
+
+            ${repoHealth}
+
+            ### 🔗 Link Check Results
+
+            ${lycheeReport}
+
+            ---
+
+            *This issue was automatically created by the [Link Checker workflow](.github/workflows/link-checker.yml)*
+            *Run date: ${new Date().toISOString().split('T')[0]}*`;
+
+            if (existingIssue) {
+              // Update existing issue
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existingIssue.number,
+                body: body
+              });
+              console.log(`Updated issue #${existingIssue.number}`);
+            } else {
+              // Create new issue
+              const issue = await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: `🔧 Weekly Maintenance Report - ${new Date().toISOString().split('T')[0]}`,
+                body: body,
+                labels: ['maintenance', 'automated']
+              });
+              console.log(`Created issue #${issue.data.number}`);
+            }
