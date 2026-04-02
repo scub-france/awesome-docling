@@ -11,7 +11,6 @@
 </p>
 
 <p align="center">
-  <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
   <img src="https://img.shields.io/github/stars/docling-project/docling?style=flat-square&label=docling%20%E2%AD%90&color=2b2b2b" alt="Stars">
   <img src="https://img.shields.io/github/license/docling-project/docling?style=flat-square&color=2b2b2b" alt="License">
 </p>
