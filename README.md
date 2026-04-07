@@ -55,6 +55,8 @@ Core repositories maintained by [docling-project](https://github.com/docling-pro
 | ![](https://img.shields.io/github/stars/docling-project/docling-jobkit?style=flat-square&label=%E2%AD%90) | [**docling-jobkit**](https://github.com/docling-project/docling-jobkit) | Distributed batch processing with multiprocessing & Kubeflow Pipelines |
 | ![](https://img.shields.io/github/stars/docling-project/docling-java?style=flat-square&label=%E2%AD%90) | [**docling-java**](https://github.com/docling-project/docling-java) | Java API via docling-serve REST |
 | ![](https://img.shields.io/github/stars/docling-project/docling-ts?style=flat-square&label=%E2%AD%90) | [**docling-ts**](https://github.com/docling-project/docling-ts) | Official TypeScript/JS library and web components for Docling JSON output |
+| ![](https://img.shields.io/github/stars/docling-project/docling-metrics?style=flat-square&label=%E2%AD%90) | [**docling-metrics**](https://github.com/docling-project/docling-metrics) | Core package for type and interface definitions of docling metric implementations |
+| ![](https://img.shields.io/github/stars/docling-project/docling-cvat-tools?style=flat-square&label=%E2%AD%90) | [**docling-cvat-tools**](https://github.com/docling-project/docling-cvat-tools) | Collection of CVAT parsing and campaign utilities for Docling |
 
 ## Models
 
@@ -78,7 +80,8 @@ Core repositories maintained by [docling-project](https://github.com/docling-pro
 ### RAG & Orchestration
 
 | Framework | Integration | Links |
-|-----------|-------------|-------|
+|---------| ![](https://img.shields.io/github/stars/GiovanniPasq/chunky?style=flat-square&label=%E2%AD%90) | [**chunky**](https://github.com/GiovanniPasq/chunky) | Your RAG pipeline is broken and you don't know it. Chunky lets you validate your Markdown and choose the best chunking strategy before indexing. |
+--|-------------|-------|
 | **LangChain** | `langchain-docling` — `DoclingLoader` with `DOC_CHUNKS` / `MARKDOWN` export | [PyPI](https://pypi.org/project/langchain-docling/) · [example](https://docling-project.github.io/docling/examples/rag_langchain/) |
 | **LlamaIndex** | `DoclingReader` + `DoclingNodeParser` with hierarchical chunking | [PyPI](https://pypi.org/project/llama-index-readers-docling/) · [example](https://docling-project.github.io/docling/examples/rag_llamaindex/) |
 | **Haystack** | Pipeline integration for retrieval and generation workflows | [example](https://docling-project.github.io/docling/examples/rag_haystack/) |
@@ -109,6 +112,7 @@ Official RAG examples with **Milvus**, **Weaviate**, **Qdrant**, and **OpenSearc
 |-------|---------|-------------|
 | ![](https://img.shields.io/github/stars/scub-france/SmolDocling-visualizer?style=flat-square&label=%E2%AD%90) | [**Docling Studio**](https://github.com/scub-france/SmolDocling-visualizer) | Visual inspection layer — side-by-side source vs. DoclingDocument comparison *(SCUB)* |
 | ![](https://img.shields.io/github/stars/hparreao/doclingconverter?style=flat-square&label=%E2%AD%90) | [**DoclingConverter**](https://github.com/hparreao/doclingconverter) | Streamlit UI for converting documents to Markdown, JSON, or YAML |
+| ![](https://img.shields.io/github/stars/captv89/OpenDA?style=flat-square&label=%E2%AD%90) | [**OpenDA**](https://github.com/captv89/OpenDA) | Open-source Human-in-the-Loop AI platform for maritime port agency cost validation. |
 
 ### RAG Systems
 
@@ -118,12 +122,15 @@ Official RAG examples with **Milvus**, **Weaviate**, **Qdrant**, and **OpenSearc
 | ![](https://img.shields.io/github/stars/HaileyTQuach/docchat-docling?style=flat-square&label=%E2%AD%90) | [**DocChat**](https://github.com/HaileyTQuach/docchat-docling) | Multi-agent RAG with BM25 + vector search, fact-checking loop, Gradio UI |
 | ![](https://img.shields.io/github/stars/stevereiner/flexible-graphrag?style=flat-square&label=%E2%AD%90) | [**Flexible GraphRAG**](https://github.com/stevereiner/flexible-graphrag) | 8 graph DBs, 10 vector DBs, hybrid search. React/Vue/Angular frontends, MCP server |
 | ![](https://img.shields.io/github/stars/royjoydeep348/docling-rag-agent?style=flat-square&label=%E2%AD%90) | [**docling-rag-agent**](https://github.com/royjoydeep348/docling-rag-agent) | CLI RAG agent with PostgreSQL/pgvector, streaming responses, Docling tutorials included |
+| ![](https://img.shields.io/github/stars/LeDat98/NexusRAG?style=flat-square&label=%E2%AD%90) | [**NexusRAG**](https://github.com/LeDat98/NexusRAG) | Hybrid RAG system combining vector search, knowledge graph (LightRAG), and cross-encoder reranking — with Docling document parsing, visual intelligence (image/table captioning), agentic streaming chat, and inline citations. Powered by Gemini or local Ollama models. |
+| ![](https://img.shields.io/github/stars/NameetP/pdfmux?style=flat-square&label=%E2%AD%90) | [**pdfmux**](https://github.com/NameetP/pdfmux) | PDF extraction that checks its own work. #2 reading order accuracy — zero AI, zero GPU, zero cost. |
 
 ### OCR Plugins
 
 | Stars | Project | Description |
 |-------|---------|-------------|
 | ![](https://img.shields.io/github/stars/felixdittrich92/docling-OCR-OnnxTR?style=flat-square&label=%E2%AD%90) | [**docling-OCR-OnnxTR**](https://github.com/felixdittrich92/docling-OCR-OnnxTR) | OnnxTR (ONNX Runtime) OCR plugin. CPU, CUDA, OpenVINO. Multilingual |
+| ![](https://img.shields.io/github/stars/DCC-BS/docling-glm-ocr?style=flat-square&label=%E2%AD%90) | [**docling-glm-ocr**](https://github.com/DCC-BS/docling-glm-ocr) | A docling plugin to integrate a remote hosted GLM-OCR OCR model into docling |
 
 ## Articles & Tutorials
 
