@@ -81,6 +81,7 @@ Core repositories maintained by [docling-project](https://github.com/docling-pro
 
 | Framework | Integration | Links |
 |---------| ![](https://img.shields.io/github/stars/GiovanniPasq/chunky?style=flat-square&label=%E2%AD%90) | [**chunky**](https://github.com/GiovanniPasq/chunky) | Your RAG pipeline is broken and you don't know it. Chunky lets you validate your Markdown and choose the best chunking strategy before indexing. |
+| ![](https://img.shields.io/github/stars/ENDEVSOLS/LongParser?style=flat-square&label=%E2%AD%90) | [**LongParser**](https://github.com/ENDEVSOLS/LongParser) | Privacy-first document intelligence engine — parse PDFs, DOCX, PPTX, XLSX & CSV into AI-ready chunks for RAG pipelines. Includes HITL review, 3-layer memory chat, and a production FastAPI server. |
 --|-------------|-------|
 | **LangChain** | `langchain-docling` — `DoclingLoader` with `DOC_CHUNKS` / `MARKDOWN` export | [PyPI](https://pypi.org/project/langchain-docling/) · [example](https://docling-project.github.io/docling/examples/rag_langchain/) |
 | **LlamaIndex** | `DoclingReader` + `DoclingNodeParser` with hierarchical chunking | [PyPI](https://pypi.org/project/llama-index-readers-docling/) · [example](https://docling-project.github.io/docling/examples/rag_llamaindex/) |
