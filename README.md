@@ -81,6 +81,7 @@ Core repositories maintained by [docling-project](https://github.com/docling-pro
 
 | Framework | Integration | Links |
 |---------| ![](https://img.shields.io/github/stars/GiovanniPasq/chunky?style=flat-square&label=%E2%AD%90) | [**chunky**](https://github.com/GiovanniPasq/chunky) | Your RAG pipeline is broken and you don't know it. Chunky lets you validate your Markdown and choose the best chunking strategy before indexing. |
+| ![](https://img.shields.io/github/stars/ENDEVSOLS/LongParser?style=flat-square&label=%E2%AD%90) | [**LongParser**](https://github.com/ENDEVSOLS/LongParser) | Privacy-first document intelligence engine — parse PDFs, DOCX, PPTX, XLSX & CSV into AI-ready chunks for RAG pipelines. Includes HITL review, 3-layer memory chat, and a production FastAPI server. |
 --|-------------|-------|
 | **LangChain** | `langchain-docling` — `DoclingLoader` with `DOC_CHUNKS` / `MARKDOWN` export | [PyPI](https://pypi.org/project/langchain-docling/) · [example](https://docling-project.github.io/docling/examples/rag_langchain/) |
 | **LlamaIndex** | `DoclingReader` + `DoclingNodeParser` with hierarchical chunking | [PyPI](https://pypi.org/project/llama-index-readers-docling/) · [example](https://docling-project.github.io/docling/examples/rag_llamaindex/) |
@@ -131,6 +132,7 @@ Official RAG examples with **Milvus**, **Weaviate**, **Qdrant**, and **OpenSearc
 |-------|---------|-------------|
 | ![](https://img.shields.io/github/stars/felixdittrich92/docling-OCR-OnnxTR?style=flat-square&label=%E2%AD%90) | [**docling-OCR-OnnxTR**](https://github.com/felixdittrich92/docling-OCR-OnnxTR) | OnnxTR (ONNX Runtime) OCR plugin. CPU, CUDA, OpenVINO. Multilingual |
 | ![](https://img.shields.io/github/stars/DCC-BS/docling-glm-ocr?style=flat-square&label=%E2%AD%90) | [**docling-glm-ocr**](https://github.com/DCC-BS/docling-glm-ocr) | A docling plugin to integrate a remote hosted GLM-OCR OCR model into docling |
+| ![](https://img.shields.io/github/stars/heripo-lab/heripo-engine?style=flat-square&label=%E2%AD%90) | [**heripo-engine**](https://github.com/heripo-lab/heripo-engine) | TypeScript library for extracting structured data from archaeological excavation report PDFs using Docling SDK and LLM-powered analysis |
 
 ## Articles & Tutorials
 
