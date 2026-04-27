@@ -125,6 +125,7 @@ Official RAG examples with **Milvus**, **Weaviate**, **Qdrant**, and **OpenSearc
 | ![](https://img.shields.io/github/stars/royjoydeep348/docling-rag-agent?style=flat-square&label=%E2%AD%90) | [**docling-rag-agent**](https://github.com/royjoydeep348/docling-rag-agent) | CLI RAG agent with PostgreSQL/pgvector, streaming responses, Docling tutorials included |
 | ![](https://img.shields.io/github/stars/LeDat98/NexusRAG?style=flat-square&label=%E2%AD%90) | [**NexusRAG**](https://github.com/LeDat98/NexusRAG) | Hybrid RAG system combining vector search, knowledge graph (LightRAG), and cross-encoder reranking — with Docling document parsing, visual intelligence (image/table captioning), agentic streaming chat, and inline citations. Powered by Gemini or local Ollama models. |
 | ![](https://img.shields.io/github/stars/NameetP/pdfmux?style=flat-square&label=%E2%AD%90) | [**pdfmux**](https://github.com/NameetP/pdfmux) | PDF extraction that checks its own work. #2 reading order accuracy — zero AI, zero GPU, zero cost. |
+| ![](https://img.shields.io/github/stars/nekonihq/nekoni?style=flat-square&label=%E2%AD%90) | [**nekoni**](https://github.com/nekonihq/nekoni) | Local AI agent on your home machine, accessible from your phone via P2P WebRTC. Ollama + RAG + Skills + cron - no cloud, no subscription, your data stays on your hardware. |
 
 ### OCR Plugins
 
