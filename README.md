@@ -80,9 +80,7 @@ Core repositories maintained by [docling-project](https://github.com/docling-pro
 ### RAG & Orchestration
 
 | Framework | Integration | Links |
-|---------| ![](https://img.shields.io/github/stars/GiovanniPasq/chunky?style=flat-square&label=%E2%AD%90) | [**chunky**](https://github.com/GiovanniPasq/chunky) | Your RAG pipeline is broken and you don't know it. Chunky lets you validate your Markdown and choose the best chunking strategy before indexing. |
-| ![](https://img.shields.io/github/stars/ENDEVSOLS/LongParser?style=flat-square&label=%E2%AD%90) | [**LongParser**](https://github.com/ENDEVSOLS/LongParser) | Privacy-first document intelligence engine — parse PDFs, DOCX, PPTX, XLSX & CSV into AI-ready chunks for RAG pipelines. Includes HITL review, 3-layer memory chat, and a production FastAPI server. |
---|-------------|-------|
+|-----------|-------------|-------|
 | **LangChain** | `langchain-docling` — `DoclingLoader` with `DOC_CHUNKS` / `MARKDOWN` export | [PyPI](https://pypi.org/project/langchain-docling/) · [example](https://docling-project.github.io/docling/examples/rag_langchain/) |
 | **LlamaIndex** | `DoclingReader` + `DoclingNodeParser` with hierarchical chunking | [PyPI](https://pypi.org/project/llama-index-readers-docling/) · [example](https://docling-project.github.io/docling/examples/rag_llamaindex/) |
 | **Haystack** | Pipeline integration for retrieval and generation workflows | [example](https://docling-project.github.io/docling/examples/rag_haystack/) |
@@ -125,6 +123,9 @@ Official RAG examples with **Milvus**, **Weaviate**, **Qdrant**, and **OpenSearc
 | ![](https://img.shields.io/github/stars/royjoydeep348/docling-rag-agent?style=flat-square&label=%E2%AD%90) | [**docling-rag-agent**](https://github.com/royjoydeep348/docling-rag-agent) | CLI RAG agent with PostgreSQL/pgvector, streaming responses, Docling tutorials included |
 | ![](https://img.shields.io/github/stars/LeDat98/NexusRAG?style=flat-square&label=%E2%AD%90) | [**NexusRAG**](https://github.com/LeDat98/NexusRAG) | Hybrid RAG system combining vector search, knowledge graph (LightRAG), and cross-encoder reranking — with Docling document parsing, visual intelligence (image/table captioning), agentic streaming chat, and inline citations. Powered by Gemini or local Ollama models. |
 | ![](https://img.shields.io/github/stars/NameetP/pdfmux?style=flat-square&label=%E2%AD%90) | [**pdfmux**](https://github.com/NameetP/pdfmux) | PDF extraction that checks its own work. #2 reading order accuracy — zero AI, zero GPU, zero cost. |
+| ![](https://img.shields.io/github/stars/nekonihq/nekoni?style=flat-square&label=%E2%AD%90) | [**nekoni**](https://github.com/nekonihq/nekoni) | Local AI agent on your home machine, accessible from your phone via P2P WebRTC. Ollama + RAG + Skills + cron - no cloud, no subscription, your data stays on your hardware. |
+| ![](https://img.shields.io/github/stars/GiovanniPasq/chunky?style=flat-square&label=%E2%AD%90) | [**chunky**](https://github.com/GiovanniPasq/chunky) | Convert and validate your Markdown, then choose the best chunking strategy for your RAG pipeline. |
+| ![](https://img.shields.io/github/stars/ENDEVSOLS/LongParser?style=flat-square&label=%E2%AD%90) | [**LongParser**](https://github.com/ENDEVSOLS/LongParser) | Privacy-first document intelligence engine — parse PDFs, DOCX, PPTX, XLSX & CSV into AI-ready chunks for RAG pipelines. Includes HITL review, 3-layer memory chat, and a production FastAPI server. |
 
 ### OCR Plugins
 
