@@ -114,6 +114,7 @@ Official RAG examples with **Milvus**, **Weaviate**, **Qdrant**, and **OpenSearc
 | ![](https://img.shields.io/github/stars/scub-france/SmolDocling-visualizer?style=flat-square&label=%E2%AD%90) | [**Docling Studio**](https://github.com/scub-france/SmolDocling-visualizer) | Visual inspection layer — side-by-side source vs. DoclingDocument comparison *(SCUB)* |
 | ![](https://img.shields.io/github/stars/hparreao/doclingconverter?style=flat-square&label=%E2%AD%90) | [**DoclingConverter**](https://github.com/hparreao/doclingconverter) | Streamlit UI for converting documents to Markdown, JSON, or YAML |
 | ![](https://img.shields.io/github/stars/captv89/OpenDA?style=flat-square&label=%E2%AD%90) | [**OpenDA**](https://github.com/captv89/OpenDA) | Open-source Human-in-the-Loop AI platform for maritime port agency cost validation. |
+| ![](https://img.shields.io/github/stars/DCC-BS/docling-pp-doc-layout?style=flat-square&label=%E2%AD%90) | [**docling-pp-doc-layout**](https://github.com/DCC-BS/docling-pp-doc-layout) | Docling plugin to integrate PP-DocLayout-V3 model into docling to enhance layout detection capabilities |
 
 ### RAG Systems
 
@@ -125,6 +126,8 @@ Official RAG examples with **Milvus**, **Weaviate**, **Qdrant**, and **OpenSearc
 | ![](https://img.shields.io/github/stars/royjoydeep348/docling-rag-agent?style=flat-square&label=%E2%AD%90) | [**docling-rag-agent**](https://github.com/royjoydeep348/docling-rag-agent) | CLI RAG agent with PostgreSQL/pgvector, streaming responses, Docling tutorials included |
 | ![](https://img.shields.io/github/stars/LeDat98/NexusRAG?style=flat-square&label=%E2%AD%90) | [**NexusRAG**](https://github.com/LeDat98/NexusRAG) | Hybrid RAG system combining vector search, knowledge graph (LightRAG), and cross-encoder reranking — with Docling document parsing, visual intelligence (image/table captioning), agentic streaming chat, and inline citations. Powered by Gemini or local Ollama models. |
 | ![](https://img.shields.io/github/stars/NameetP/pdfmux?style=flat-square&label=%E2%AD%90) | [**pdfmux**](https://github.com/NameetP/pdfmux) | PDF extraction that checks its own work. #2 reading order accuracy — zero AI, zero GPU, zero cost. |
+| ![](https://img.shields.io/github/stars/nekonihq/nekoni?style=flat-square&label=%E2%AD%90) | [**nekoni**](https://github.com/nekonihq/nekoni) | Local AI agent on your home machine, accessible from your phone via P2P WebRTC. Ollama + RAG + Skills + cron - no cloud, no subscription, your data stays on your hardware. |
+| ![](https://img.shields.io/github/stars/guy1998/glaucias?style=flat-square&label=%E2%AD%90) | [**glaucias**](https://github.com/guy1998/glaucias) | Glaucias is an open source platform focused on RAG. The purpose of the platform is to extract the structure of documents and make it as feasible as possible for RAG by identifying the references in the text(implicit and explicit) |
 
 ### OCR Plugins
 
