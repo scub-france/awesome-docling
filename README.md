@@ -57,6 +57,7 @@ Core repositories maintained by [docling-project](https://github.com/docling-pro
 | ![](https://img.shields.io/github/stars/docling-project/docling-ts?style=flat-square&label=%E2%AD%90) | [**docling-ts**](https://github.com/docling-project/docling-ts) | Official TypeScript/JS library and web components for Docling JSON output |
 | ![](https://img.shields.io/github/stars/docling-project/docling-metrics?style=flat-square&label=%E2%AD%90) | [**docling-metrics**](https://github.com/docling-project/docling-metrics) | Core package for type and interface definitions of docling metric implementations |
 | ![](https://img.shields.io/github/stars/docling-project/docling-cvat-tools?style=flat-square&label=%E2%AD%90) | [**docling-cvat-tools**](https://github.com/docling-project/docling-cvat-tools) | Collection of CVAT parsing and campaign utilities for Docling |
+| ![](https://img.shields.io/github/stars/docling-project/docling.rs?style=flat-square&label=%E2%AD%90) | [**docling.rs**](https://github.com/docling-project/docling.rs) | Full Rust port of Python docling |
 
 ## Models
 
@@ -114,6 +115,7 @@ Official RAG examples with **Milvus**, **Weaviate**, **Qdrant**, and **OpenSearc
 | ![](https://img.shields.io/github/stars/scub-france/SmolDocling-visualizer?style=flat-square&label=%E2%AD%90) | [**Docling Studio**](https://github.com/scub-france/SmolDocling-visualizer) | Visual inspection layer — side-by-side source vs. DoclingDocument comparison *(SCUB)* |
 | ![](https://img.shields.io/github/stars/hparreao/doclingconverter?style=flat-square&label=%E2%AD%90) | [**DoclingConverter**](https://github.com/hparreao/doclingconverter) | Streamlit UI for converting documents to Markdown, JSON, or YAML |
 | ![](https://img.shields.io/github/stars/captv89/OpenDA?style=flat-square&label=%E2%AD%90) | [**OpenDA**](https://github.com/captv89/OpenDA) | Open-source Human-in-the-Loop AI platform for maritime port agency cost validation. |
+| ![](https://img.shields.io/github/stars/hwdsl2/docker-docling?style=flat-square&label=%E2%AD%90) | [**docker-docling**](https://github.com/hwdsl2/docker-docling) | Docker image for a self-hosted Docling document parsing server. Converts PDF, DOCX, PPTX, HTML, and more to Markdown/JSON. Powered by IBM Docling. Features sync/async conversion, chunking for RAG, NVIDIA GPU (CUDA) acceleration, optional web UI, offline mode, and persistent model cache. Multi-arch: amd64, arm64. |
 
 ### RAG Systems
 
@@ -125,6 +127,9 @@ Official RAG examples with **Milvus**, **Weaviate**, **Qdrant**, and **OpenSearc
 | ![](https://img.shields.io/github/stars/royjoydeep348/docling-rag-agent?style=flat-square&label=%E2%AD%90) | [**docling-rag-agent**](https://github.com/royjoydeep348/docling-rag-agent) | CLI RAG agent with PostgreSQL/pgvector, streaming responses, Docling tutorials included |
 | ![](https://img.shields.io/github/stars/LeDat98/NexusRAG?style=flat-square&label=%E2%AD%90) | [**NexusRAG**](https://github.com/LeDat98/NexusRAG) | Hybrid RAG system combining vector search, knowledge graph (LightRAG), and cross-encoder reranking — with Docling document parsing, visual intelligence (image/table captioning), agentic streaming chat, and inline citations. Powered by Gemini or local Ollama models. |
 | ![](https://img.shields.io/github/stars/NameetP/pdfmux?style=flat-square&label=%E2%AD%90) | [**pdfmux**](https://github.com/NameetP/pdfmux) | PDF extraction that checks its own work. #2 reading order accuracy — zero AI, zero GPU, zero cost. |
+| ![](https://img.shields.io/github/stars/hwdsl2/self-hosted-ai-stack?style=flat-square&label=%E2%AD%90) | [**self-hosted-ai-stack**](https://github.com/hwdsl2/self-hosted-ai-stack) | Deploy a complete self-hosted AI stack with Docker Compose: Ollama, LiteLLM, AnythingLLM, Whisper, WhisperLive, Kokoro, Embeddings, Docling and MCP Gateway. Local-first, private by default, with lightweight stacks, optional HTTPS and NVIDIA CUDA acceleration. Multi-arch: amd64, arm64. |
+| ![](https://img.shields.io/github/stars/max3925vats/zotero-docling?style=flat-square&label=%E2%AD%90) | [**zotero-docling**](https://github.com/max3925vats/zotero-docling) | A Zotero plugin to convert PDF attachments to Markdown via Docling. |
+| ![](https://img.shields.io/github/stars/guy1998/glaucias?style=flat-square&label=%E2%AD%90) | [**glaucias**](https://github.com/guy1998/glaucias) | Glaucias is an open source platform focused on RAG. The purpose of the platform is to extract the structure of documents and make it as feasible as possible for RAG by identifying the references in the text(implicit and explicit) |
 
 ### OCR Plugins
 
@@ -133,6 +138,8 @@ Official RAG examples with **Milvus**, **Weaviate**, **Qdrant**, and **OpenSearc
 | ![](https://img.shields.io/github/stars/felixdittrich92/docling-OCR-OnnxTR?style=flat-square&label=%E2%AD%90) | [**docling-OCR-OnnxTR**](https://github.com/felixdittrich92/docling-OCR-OnnxTR) | OnnxTR (ONNX Runtime) OCR plugin. CPU, CUDA, OpenVINO. Multilingual |
 | ![](https://img.shields.io/github/stars/DCC-BS/docling-glm-ocr?style=flat-square&label=%E2%AD%90) | [**docling-glm-ocr**](https://github.com/DCC-BS/docling-glm-ocr) | A docling plugin to integrate a remote hosted GLM-OCR OCR model into docling |
 | ![](https://img.shields.io/github/stars/heripo-lab/heripo-engine?style=flat-square&label=%E2%AD%90) | [**heripo-engine**](https://github.com/heripo-lab/heripo-engine) | TypeScript library for extracting structured data from archaeological excavation report PDFs using Docling SDK and LLM-powered analysis |
+| ![](https://img.shields.io/github/stars/daxueren666/exam-review-helper?style=flat-square&label=%E2%AD%90) | [**exam-review-helper**](https://github.com/daxueren666/exam-review-helper) | 把 PDF/Word/TXT/Markdown 教材浓缩成交互式 HTML 复习文档的 Claude Code / Codex CLI Skill。自动识别文科/理工科模式，5-pass 深度提取，原生支持扫描版 PDF OCR。v1.2 用 pdfium 后端修复 docling std::bad_alloc 崩溃，大 PDF 稳定提取。 |
+| ![](https://img.shields.io/github/stars/madebyagents/doc-approval-demo?style=flat-square&label=%E2%AD%90) | [**doc-approval-demo**](https://github.com/madebyagents/doc-approval-demo) | Interactive demo of a SOTA agentic OCR document approval flow |
 
 ## Articles & Tutorials
 
