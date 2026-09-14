@@ -57,6 +57,7 @@ Core repositories maintained by [docling-project](https://github.com/docling-pro
 | ![](https://img.shields.io/github/stars/docling-project/docling-ts?style=flat-square&label=%E2%AD%90) | [**docling-ts**](https://github.com/docling-project/docling-ts) | Official TypeScript/JS library and web components for Docling JSON output |
 | ![](https://img.shields.io/github/stars/docling-project/docling-metrics?style=flat-square&label=%E2%AD%90) | [**docling-metrics**](https://github.com/docling-project/docling-metrics) | Core package for type and interface definitions of docling metric implementations |
 | ![](https://img.shields.io/github/stars/docling-project/docling-cvat-tools?style=flat-square&label=%E2%AD%90) | [**docling-cvat-tools**](https://github.com/docling-project/docling-cvat-tools) | Collection of CVAT parsing and campaign utilities for Docling |
+| ![](https://img.shields.io/github/stars/docling-project/docling.rs?style=flat-square&label=%E2%AD%90) | [**docling.rs**](https://github.com/docling-project/docling.rs) | Full Rust port of Python docling |
 
 ## Models
 
@@ -125,6 +126,9 @@ Official RAG examples with **Milvus**, **Weaviate**, **Qdrant**, and **OpenSearc
 | ![](https://img.shields.io/github/stars/royjoydeep348/docling-rag-agent?style=flat-square&label=%E2%AD%90) | [**docling-rag-agent**](https://github.com/royjoydeep348/docling-rag-agent) | CLI RAG agent with PostgreSQL/pgvector, streaming responses, Docling tutorials included |
 | ![](https://img.shields.io/github/stars/LeDat98/NexusRAG?style=flat-square&label=%E2%AD%90) | [**NexusRAG**](https://github.com/LeDat98/NexusRAG) | Hybrid RAG system combining vector search, knowledge graph (LightRAG), and cross-encoder reranking — with Docling document parsing, visual intelligence (image/table captioning), agentic streaming chat, and inline citations. Powered by Gemini or local Ollama models. |
 | ![](https://img.shields.io/github/stars/NameetP/pdfmux?style=flat-square&label=%E2%AD%90) | [**pdfmux**](https://github.com/NameetP/pdfmux) | PDF extraction that checks its own work. #2 reading order accuracy — zero AI, zero GPU, zero cost. |
+| ![](https://img.shields.io/github/stars/Sqhao-O/dsh-docs?style=flat-square&label=%E2%AD%90) | [**dsh-docs**](https://github.com/Sqhao-O/dsh-docs) | Fully local document intelligence for DeepSeek Harness. Parse PDF, Office files, images, and scanned documents with offline OCR. | DeepSeek Harness 全本地文档智能插件，支持 PDF、Office、图片与离线 OCR |
+| ![](https://img.shields.io/github/stars/anishmoncivarghese/docsift?style=flat-square&label=%E2%AD%90) | [**docsift**](https://github.com/anishmoncivarghese/docsift) | Convert documents once. Give agents only what they need — PDFs and Office files to clean Markdown, chunks and local search. |
+| ![](https://img.shields.io/github/stars/686f6c61/Hermes-Research-PRISMA?style=flat-square&label=%E2%AD%90) | [**Hermes-Research-PRISMA**](https://github.com/686f6c61/Hermes-Research-PRISMA) | A reproducible Hermes Agent research runtime for systematic literature reviews, full-text evidence extraction, methodological routing, and auditable publication artifacts. |
 
 ### OCR Plugins
 
