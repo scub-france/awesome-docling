@@ -57,6 +57,7 @@ Core repositories maintained by [docling-project](https://github.com/docling-pro
 | ![](https://img.shields.io/github/stars/docling-project/docling-ts?style=flat-square&label=%E2%AD%90) | [**docling-ts**](https://github.com/docling-project/docling-ts) | Official TypeScript/JS library and web components for Docling JSON output |
 | ![](https://img.shields.io/github/stars/docling-project/docling-metrics?style=flat-square&label=%E2%AD%90) | [**docling-metrics**](https://github.com/docling-project/docling-metrics) | Core package for type and interface definitions of docling metric implementations |
 | ![](https://img.shields.io/github/stars/docling-project/docling-cvat-tools?style=flat-square&label=%E2%AD%90) | [**docling-cvat-tools**](https://github.com/docling-project/docling-cvat-tools) | Collection of CVAT parsing and campaign utilities for Docling |
+| ![](https://img.shields.io/github/stars/docling-project/docling.rs?style=flat-square&label=%E2%AD%90) | [**docling.rs**](https://github.com/docling-project/docling.rs) | Full Rust port of Python docling |
 
 ## Models
 
@@ -125,6 +126,11 @@ Official RAG examples with **Milvus**, **Weaviate**, **Qdrant**, and **OpenSearc
 | ![](https://img.shields.io/github/stars/royjoydeep348/docling-rag-agent?style=flat-square&label=%E2%AD%90) | [**docling-rag-agent**](https://github.com/royjoydeep348/docling-rag-agent) | CLI RAG agent with PostgreSQL/pgvector, streaming responses, Docling tutorials included |
 | ![](https://img.shields.io/github/stars/LeDat98/NexusRAG?style=flat-square&label=%E2%AD%90) | [**NexusRAG**](https://github.com/LeDat98/NexusRAG) | Hybrid RAG system combining vector search, knowledge graph (LightRAG), and cross-encoder reranking — with Docling document parsing, visual intelligence (image/table captioning), agentic streaming chat, and inline citations. Powered by Gemini or local Ollama models. |
 | ![](https://img.shields.io/github/stars/NameetP/pdfmux?style=flat-square&label=%E2%AD%90) | [**pdfmux**](https://github.com/NameetP/pdfmux) | PDF extraction that checks its own work. #2 reading order accuracy — zero AI, zero GPU, zero cost. |
+| ![](https://img.shields.io/github/stars/Sreehari05055/thesys-core?style=flat-square&label=%E2%AD%90) | [**thesys-core**](https://github.com/Sreehari05055/thesys-core) | Open-source research workspace: search academic papers, upload PDFs, inline citations with on-PDF highlights, reader-mode Q&A, and get citation export in four formats. |
+| ![](https://img.shields.io/github/stars/Sqhao-O/dsh-docs?style=flat-square&label=%E2%AD%90) | [**dsh-docs**](https://github.com/Sqhao-O/dsh-docs) | Fully local document intelligence for DeepSeek Harness. Parse PDF, Office files, images, and scanned documents with offline OCR. | DeepSeek Harness 全本地文档智能插件，支持 PDF、Office、图片与离线 OCR |
+| ![](https://img.shields.io/github/stars/unitedrhino/docling?style=flat-square&label=%E2%AD%90) | [**docling**](https://github.com/unitedrhino/docling) | Get your documents ready for gen AI, in pure Go. A Go alternative to anydoc & Docling — 纯 Go 实现的文档解析库:PDF/Word/PPT/Excel/HTML/Markdown/EML/图片等 12 种格式统一解析为 Docling 协议(Markdown/JSON/content_list),表格还原·多栏阅读顺序·图表数据回填,OCR 收敛为一个大模型接口,单二进制零依赖,快 34~153 倍。联犀物联网平台知识库同款引擎。 |
+| ![](https://img.shields.io/github/stars/anishmoncivarghese/docsift?style=flat-square&label=%E2%AD%90) | [**docsift**](https://github.com/anishmoncivarghese/docsift) | Convert documents once. Give agents only what they need — PDFs and Office files to clean Markdown, chunks and local search. |
+| ![](https://img.shields.io/github/stars/686f6c61/Hermes-Research-PRISMA?style=flat-square&label=%E2%AD%90) | [**Hermes-Research-PRISMA**](https://github.com/686f6c61/Hermes-Research-PRISMA) | A reproducible Hermes Agent research runtime for systematic literature reviews, full-text evidence extraction, methodological routing, and auditable publication artifacts. |
 
 ### OCR Plugins
 
@@ -133,6 +139,7 @@ Official RAG examples with **Milvus**, **Weaviate**, **Qdrant**, and **OpenSearc
 | ![](https://img.shields.io/github/stars/felixdittrich92/docling-OCR-OnnxTR?style=flat-square&label=%E2%AD%90) | [**docling-OCR-OnnxTR**](https://github.com/felixdittrich92/docling-OCR-OnnxTR) | OnnxTR (ONNX Runtime) OCR plugin. CPU, CUDA, OpenVINO. Multilingual |
 | ![](https://img.shields.io/github/stars/DCC-BS/docling-glm-ocr?style=flat-square&label=%E2%AD%90) | [**docling-glm-ocr**](https://github.com/DCC-BS/docling-glm-ocr) | A docling plugin to integrate a remote hosted GLM-OCR OCR model into docling |
 | ![](https://img.shields.io/github/stars/heripo-lab/heripo-engine?style=flat-square&label=%E2%AD%90) | [**heripo-engine**](https://github.com/heripo-lab/heripo-engine) | TypeScript library for extracting structured data from archaeological excavation report PDFs using Docling SDK and LLM-powered analysis |
+| ![](https://img.shields.io/github/stars/CamiloMartinezM/pdf-to-markdown-multisource?style=flat-square&label=%E2%AD%90) | [**pdf-to-markdown-multisource**](https://github.com/CamiloMartinezM/pdf-to-markdown-multisource) | Convert complex scientific PDFs to provenance-rich Markdown with coordinated layout, OCR, math, table, and VLM extraction. |
 
 ## Articles & Tutorials
 
